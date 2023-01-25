@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Intrinsic Web Design</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/dracula.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <style>
+      .old {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>Intrinsic Web Design</h3>
+          <img src="./links/history.png" alt="" />
+          <small>‹The History of Layout Technology› von Jen Simmons</small>
+        </section>
+        <section>
+          <h4>‹Intrinsic› / ‹new Responsive›</h4>
+          <ul>
+            <li>Intrinsic: belonging to the nature of the web
+<small>  <a href="https://www.w3.org/TR/css-sizing-3/">^</a></small>
+            </li>
+            <li>The new responsive<small><a href="https://web.dev/new-responsive/">^</a></small>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Intrinsic</h3>
+          <section>
+            <h6>Contracting & Expanding</h6>
+            <ul><li class="old">Wrap & Reflow</li><li class="old">Enlarge & Shrink</li><li>  Add & Remove Whitespace <br />  <small    >(vertical centering, grid placement, intentional)    <a href="https://labs.jensimmons.com/2019/01-002.html"      >^</a    ></small  ></li><li>  Slide & Overlay <br /><small    >(grid placement, filters, blend-modes)    <a href="https://labs.jensimmons.com/2017/01-018.html"      >^</a    ></small  ></li>
+            </ul>
+          </section>
+          <section>
+            <h6>Flexibility</h6>
+            <ul><li class="old">Fixed</li><li class="old">Fluid Horizontally</li><li>  Vertical fluidity  <small    ><a href="https://labs.jensimmons.com/2017/01-008C.html"      >^</a    ></small  ></li><li>  Aspect Ratio, Object Fit  <small>    <a      href="https://labs.jensimmons.com/2016/examples/grace-hopper-page.html"      >^</a    >  </small></li>
+            </ul>
+          </section>
+          <section>
+            <h6>Viewport</h6>
+            <ul><li class="old">Fluid</li><li class="old">Fixed</li><li class="old">Responsive</li><li>  Intrinsic <br />  <small    >(vertical centering, viewport units, the fold)    <a      href="https://labs.jensimmons.com/2016/examples/coversheet-1.html"      >^</a    >/<a      href="https://labs.jensimmons.com/2016/examples/coversheet-2.html"      >^</a    ></small  ></li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <ul style="columns: 3; column-gap: 5rem">
+            <li>Layers</li>
+            <li>Container Queries & Units</li>
+            <li>Subgrid</li>
+            <li>CSS Grid</li>
+            <li>Flexbox</li>
+            <li>Writing Modes</li>
+            <li>Multiple-column</li>
+            <li>Transforms</li>
+            <li>Media Queries</li>
+            <li>Logical Properties</li>
+            <li>Viewport units</li>
+            <li>Object Fit</li>
+            <li>Clip-path</li>
+            <li>Shape-outside</li>
+            <li>Initial-letter</li>
+            <li>Flow</li>
+            <li>Overflow</li>
+            <li>Floats</li>
+            <li>Block</li>
+            <li>Inline</li>
+            <li>Inline-block</li>
+            <li>Display: table</li>
+            <li>Margin & Negative margins</li>
+            <li>Padding</li>
+            <li>Positioning</li>
+            <li>...</li>
+          </ul>
+        </section>
+        <section>
+          <img src="./links/layout.png" alt="" />
+          </small>
+        </section>
+        <section>
+          <h3>
+            The new responsive
+            <small><a href="https://web.dev/new-responsive">^</a></small>
+          </h3>
+          <h6>Today</h6>
+          <video src="./links/3KENjI9FiNARctTiKDak.mp4" autoplay></video>
+        </section>
+        <section>
+          <h3>Responsive to</h3>
+          <section>
+            <h6>the user</h6>
+            <ul><li>prefers-reduced-motion</li><li>prefers-contrast</li><li>prefers-reduced-transparency</li><li>prefers-color-scheme</li><li>inverted-colors</li><li>...</li>
+            </ul>
+          </section>
+          <section>
+            <h6>the container<small><a href="https://codepen.io/una/pen/LYbvKpK">^</a></small>
+            </h6>
+            <video src="./links/fvrxk5kXiif6eFX25BH5.mp4" autoplay></video>
+          </section>
+          <section>
+            <h6>the form factor</h6>
+            <img src="./links/form-factor.svg" alt="" height="350" />
+          </section>
+        </section>
+        <section>
+          <h4>Let's talk about margins</h4>
+        </section>
+        <section>
+          <h4>Media Queries</h4>
+          <p>getAbstract: Actionbar</p>
+        </section>
+        <section>
+          <h4>
+            Modern Grid
+            <small><a href="https://gildedernacht.ch/#kalender">^</a><a href="https://labs.jensimmons.com/2018/01-010.html">^</a> /<a href="https://labs.jensimmons.com/2018/01-011.html"  >^</a></small
+            >
+          </h4>
+        </section>
+        <section>
+          <h4>
+            The World of Units
+            <small><a href="https://labs.jensimmons.com/2018/01-008.html">^</a><a href="https://labs.jensimmons.com/2018/01-010.html">^</a>
+            </small>
+          </h4>
+          <div style="columns: 2; column-gap: 5rem">
+            <ul><li>fixed</li><li>min-content, max-content, fit-content</li><li>%</li><li>FR units</li><li>minmax()</li><li>auto</li>
+            </ul>
+            <ul><li>Viewport units</li><li>Container units</li><li>ch / ex</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="https://web.dev/new-responsive/"  >The new responsive: Web design in a component-driven world</a><small>2021</small>
+            </li>
+            <li><a href="https://every-layout.dev/">Every Layout</a></li>
+          </ul>
+          <h6>Jen Simmons</h6>
+          <ul>
+            <li><a href="https://labs.jensimmons.com/">labs.jensimmons.com</a>
+            </li>
+            <li><a href="https://youtu.be/jBwBACbRuGY"  >“Everything You Know About Web Design Just Changed”</a><small>(2019)</small>
+            </li>
+            <li><a href="https://youtu.be/AMPKmh98XLY"  >“Designing Intrinsic Layouts” </a><small> (2020)</small>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>More / Notes</h3>
+          <ul>
+            <li>@container<small> <a href="https://codepen.io/una/pen/LYbvKpK">^</a></small>
+            </li>
+            <li>@layer<small><a href="https://blog.intrinsisch.lvl8.io/">^</a></small>
+            </li>
+            <li>CSS Math<small><a href="https://blog.intrinsisch.lvl8.io/">^</a></small>
+            </li>
+            <li>Relative to Relativity<small><a href="https://trkr.lvl8.io/">^</a></small>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
